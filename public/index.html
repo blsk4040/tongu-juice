@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link href="./styles.css" rel="stylesheet" />
   </head>
-  <body class="bg-gray-50">
+  <body class="bg-gray-50 overflow-x-hidden">
     <!-- Header -->
     <header class="bg-green-500 text-white sticky top-0 z-20 shadow-md">
-      <div class="container mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center">
+      <div class="container mx-auto px-0 sm:px-4 py-3 flex flex-col md:flex-row justify-between items-center">
         <a href="#home">
           <img src="./images/logo.png" alt="Tongu Juice Logo" class="h-12 w-auto" onerror="console.error('Failed to load logo: ./images/logo.jpg')" />
         </a>
@@ -25,7 +25,7 @@
     </header>
 
     <!-- Hero Carousel -->
-    <section id="home" class="carousel relative" style="height: 1000px">
+    <section id="home" class="carousel relative">
       <div class="carousel-track">
         <div class="carousel-slide">
           <img src="./images/image21.jpg" alt="Hero 1" class="carousel-image" onerror="console.error('Failed to load image: ./images/image21.jpg')" />
